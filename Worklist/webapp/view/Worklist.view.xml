@@ -47,6 +47,22 @@
 					<Column id="nameColumn">
 						<Text text="{i18n>tableNameColumnTitle}" id="nameColumnTitle"/>
 					</Column>
+					<Column>
+						<Text text="{i18n>tableNameColumnTitle2}" id="nameColumnTwo"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>tableNameColumnTitle3}" id="nameColumnThree"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>tableNameColumnTitle4}" id="nameColumnFour"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>tableNameColumnTitle5}" id="nameColumnFive"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>tableNameColumnTitle6}" id="nameColumnSix"/>
+					</Column>
+				</columns>
 					<items>
 					<ColumnListItem
 						type="Navigation"
@@ -54,6 +70,16 @@
 						<cells>
 							<ObjectIdentifier
 								title="{DocumentNumber}"/>
+							<Text
+								text="{DocumentDate}"/>
+							<Text
+								text="{PlantText}"/>
+							<Text
+								text="{RegionText}"/>
+							<Text
+								text="{Description}"/>
+							<Text
+								text="{Created}"/>
 						</cells>
 					</ColumnListItem>
 				</items>
