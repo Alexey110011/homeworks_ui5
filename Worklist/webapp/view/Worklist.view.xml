@@ -42,8 +42,8 @@
 						</SearchField>
 					</Toolbar>
 				</headerToolbar>
-
-				<columns>
+			<!--Удаляем структуру таблицы в XML-->
+				<!--<columns>
 					<Column id="nameColumn">
 						<Text text="{i18n>tableNameColumnTitle}" id="nameColumnTitle"/>
 					</Column>
@@ -82,7 +82,7 @@
 								text="{Created}"/>
 						</cells>
 					</ColumnListItem>
-				</items>
+				</items>-->
 			</Table>
 		</semantic:content>
 

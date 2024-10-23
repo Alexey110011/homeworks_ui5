@@ -1,0 +1,36 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core = "sap.ui.core">
+	<Dialog
+		 id="dialog">
+		<content>
+			<VBox>
+				<VBox>
+					<Label text = "DocumentNumber" labelFor  = "idDocumentNumber"/>
+					<Input value = "{DocumentNumber}"
+						   id = "idDocumentNumber"/>
+				</VBox>
+				<VBox>
+					<Label text = "PlantID" labelFor  = "idPlantID"/>
+					<Input value = "{PlantID}"
+						   id = "idPlantID"/>
+				</VBox>
+				<VBox>
+					<Label text = "Description" labelFor  = "idDescription"/>
+					<Textarea value = "{Description}"
+							  rows = '3'
+							  width = '100'
+							  id = "idDescription"/>
+				</VBox>
+			</VBox>
+		</content>
+		<beginButton>
+			<Button type = "Emphasized" press = ".onPressSave" text = "Save"/>
+		</beginButton>
+		<endButton>
+			<Button type = "Transparent" press = ".onPressCancel" text = "Cancel"/>
+		</endButton>
+	</Dialog>
+
+</core:FragmentDefinition>
+
